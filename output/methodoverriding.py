@@ -11,6 +11,10 @@ class Cat(Animal):
         print("Cat meows")
 
 '''a = Animal()
+
+
+
+
 d = Dog()
 c = Cat()
 
