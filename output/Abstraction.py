@@ -1,4 +1,4 @@
-class car:
+'''class car:
     def __init__(self):
         self.acc = False
         self.brk = False
@@ -11,4 +11,10 @@ class car:
         print("Car started")
 
 car1 = car()
-car1.start()
+car1.start()'''
+
+
+
+import first,second
+first.Add()
+second.sub()

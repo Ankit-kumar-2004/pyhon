@@ -1,15 +1,11 @@
-class Bank:
-    def __init__(self, balance):
-        self.balance = balance   
+class A():
+    _a=10
+    __b=20
+    def show(self):
+        print("a", self._a)
+        print("b", self.__b)
 
-    def deposit(self, amount):
-        self.balance += amount
-
-    def get_balance(self):
-        return self.balance
-
-b1 = Bank(1000)
-b1.deposit(500)
-
-
-print(b1.get_balance())
+obj=A()
+obj.show()
+print("outside of class",obj._a)
+print("outside of class",obj.__a)
